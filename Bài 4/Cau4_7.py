@@ -1,0 +1,5 @@
+print("Pham Tuan Dat")
+print("235752021610105")
+text = input('Nhap chuoi: ')
+no_digits = ''.join(ch for ch in text if not ch.isdigit())
+print("Chuoi sau khi loai bo chu so:", no_digits)
