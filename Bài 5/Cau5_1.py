@@ -1,12 +1,10 @@
 print("Pham Tuan Dat")
-print("235752021610105")
-def square(n):
-    return n * n
-def cube(n):
-    return n * n * n
-def average(values):
-    nvals = len(values)
-    sum = 0.0
-    for v in values:
-        sum += v
-    return float(sum) / nvals
+print("mssv: 235752021610105")
+class Circle(object): 
+     def __init__(self, r): 
+       self.radius = r 
+############################### 
+     def area(self): 
+       return self.radius**2*3.14 
+aCircle = Circle(2) 
+print (aCircle.area())
